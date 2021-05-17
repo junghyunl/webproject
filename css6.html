@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+    header {
+        background-color: #eee;
+    }
+
+#wrap {
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #eee;
+    clear: left;
+}
+
+.left, .right, .realright {
+    float: left;
+    height: 200px;
+}
+
+.left {
+    background-color: rgb(160, 160, 194);
+    width: 17%;
+    margin-right: 3%;
+}
+
+.right {
+    background-color: rgb(148, 141, 161);
+    width: 60%;
+    text-align: center;
+}
+
+.right > h2 {
+    position: relative;
+
+}
+
+.right .emotion {
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.realright {
+    width: 17%;
+    margin-left: 3%;
+    background-color: rgb(199, 176, 196);
+}
+
+</style>
+</head>
+<body>
+    <header>2021웹그루스</header>
+    <div id="wrap">
+        <nav class="left">
+            <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            </ul>
+        </nav>
+        <div class="right">
+            <h2>
+           <span>WELCOME</span>
+           <div class="emotion"> :-> </div>
+            </h2>
+            <ul>
+           <li>html</li>
+           <li>css</li>
+           <li>java</li>
+            <li>jsp</li>
+            </ul>
+        </div>
+        <div class="realright">
+            right
+          </div>
+    </div>
+    <footer>IGRUS</footer>
+</body>
+</html>
