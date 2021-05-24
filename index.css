@@ -1,7 +1,15 @@
 body {
-    background-color: lightgreen;
+    background-color: rgb(204, 205, 209);
 }
 
 h1 {
-    color: gray;
+    color: rgb(54, 63, 110);
+}
+
+.form, .greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
 }
