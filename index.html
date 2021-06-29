@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Document</title>
+    <title>Momentum App</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="js-clock">
-        <h1>00:00</h1>
-    </div>
-    <form class="js-form form">
-        <input type="text" placeholder="what is your name?"/>
+    <form id="login-form">
+    <input 
+    required
+    max length="15" 
+    type="text" 
+    placeholder="What is your name?" 
+    /> <!--입력길이 제한-->
+    <input type="submit" value="Log In" />
     </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-        <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js=toDoList">
-
-    </ul>
-    <script src="clock.js"></script>
-    <script src="greeting.js"></script>
-    <script src="todo.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
